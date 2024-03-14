@@ -1,0 +1,76 @@
+form {
+    margin: 0 auto;
+}
+
+#searchComponent {
+    margin-top: 200px;
+    padding-top: 1em;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: #F09133;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 16em;
+    float: right;
+}
+
+li {
+    list-style-type: none;
+}
+
+#searchIcon {
+    color: gray;
+    padding-top: 1%;
+    padding-right: 3%;
+}
+
+#inputBox {
+    border: none;
+    background-color: transparent;
+    vertical-align: middle;
+    padding-bottom: 3%;
+}
+
+::placeholder{
+    font-size: 18px;
+}
+
+::placeholder{
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#searchBar {
+    padding: 1%;
+    width: 60%;
+    height: 38px;
+    border: .1em solid;
+    border-color:gray;
+    border-radius: 5px;
+}
+
+#ingredient_images {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#ingredient_images img {
+    height: 80%;
+    width: 80%;
+}
+
+input[type="text"] {
+    width: 50em;
+}

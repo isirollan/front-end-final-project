@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(./fonts/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(./fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+
+h2 {
+    font-family: Roboto-Medium;
+}
+
+#app {
+    font-family: Roboto-Regular;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
+#search {
+    justify-self: center;
+    padding-top: 3%;
+}

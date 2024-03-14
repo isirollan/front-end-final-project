@@ -1,0 +1,59 @@
+h2 {
+  color: #ffffff;
+  padding-left: 500px;
+}
+
+h3{
+  color: white;
+}
+
+
+div.about{
+  padding-top: 10px;
+}
+
+div.contact{
+  padding-top: 10px;
+}
+
+div.background{
+  background-color: #568A9F;
+  display: grid;
+  grid-template-columns: 1.5fr 0.25fr 0.25fr;
+}
+
+
+div.header {
+  min-height: 50px;
+  padding-left: 0px;
+  /* min-width:max-content; */
+  /* padding-top: 2px;
+  padding-bottom: 2px; */
+  padding: 1 rem 1 rem 1 rem;
+  vertical-align:middle;
+  /* padding-right: 10px; */
+}
+
+.suppershufflebutton {
+    border:none;
+    background-color:#568A9F;
+    color:#ffffff;
+    font-size: 23px;
+    font-weight: bold;
+    padding-left:100px;
+    padding-top:10px;
+}
+
+.aboutbutton{
+    border:none;
+    background-color:#568A9F;
+    color:#ffffff;
+    font-size:20px;
+}
+
+.homecontactbutton{
+    border:none;
+    background-color:#568A9F;
+    color:#ffffff;
+    font-size:20px;
+}
